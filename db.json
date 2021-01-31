@@ -1,28 +1,114 @@
 {
     "bg": "https://images.squarespace-cdn.com/content/v1/5728dc7cd51cd4809e7aaa01/1465415915694-Q9HIKWX82CWYV7S4O4K6/ke17ZwdGBToddI8pDm48kJWpy9GcrIQLqw86YhsEPs17gQa3H78H3Y0txjaiv_0fb6Yam34WDY9bcZnnIU8PyzL5XwEKbTsZ74nkctAu9ie-GZfo8K2YHLR1HEUj1H1_ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO8YZcVdkSpcW2HS8tNthO8R8SUltrq3rCXYlye7Tnoagg/Elevador-Lacerda.jpg?format=1500w",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz de Baianidades",
+    "description": "Vamos ver se você é da boa terra mesmo, ou é só de fachada.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://fw.atarde.uol.com.br/2016/06/650x375_mulheres-usam-as-redes-sociais-para-protestar-contra-a-flica_1647436.jpg",
+        "title": "Em qual cidade é realizada a FLICA, uma das maiores Feiras literárias do Brasil",
+        "description": "Bahia não se resume a Salvador não, pai.",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Jequié",
+          "Barreiras",
+          "Cachoeira",
+          "Juazeiro"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/LLYpIEemKzYjWd7ZPV/giphy.gif",
+        "title": "Quais desses nomes foram essenciais para o nascimento do Carnaval como conhecemos",
+        "description": "Se tem Bahia, tem Carnaval",
+        "answer": 1,
+        "alternatives": [
+           "Bloco Alerta Geral, Bloco Amor e Paixão e Bloco Coruja",
+           "Dodô, Osmar Macedo e Orlando Tapajós",
+           "Luís Caldas, Ivete Sangalo e Tomate",
+           "Banda Eva, Asa de Águia e Banda Mel"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/LoUnyzF7dUsgkIwVow/giphy.gif",
+        "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica o maior centro cerâmico da América Latina",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+           "Maragogipinho",
+           "Camamú",
+           "Guaibim",
+           "Nazaré das Farinhas"
+        ]
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Salvador_Bahia_Brasil.jpg",
+        "title": "Qual o nome do maior Rio que corta Salvador",
+        "description": "Aquele mesmo que corta São Caetano, Iguatemi e vai dar no Jardim dos Namorados",
+        "answer": 2,
+        "alternatives": [
+           "Rio das Pedras",
+           "Rio da Dona",
+           "Rio Camarajipe",
+           "Rio Real"
+        ]
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Senhordobonfim.jpg",
+        "title": "Quando se comemora a tradicional Festa do Senhor do Bonfim",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Primeira Quinta-feira de Janeiro",
+           "Segunda Quinta-feira de Janeiro",
+           "Terceira Quinta-feira de Janeiro",
+           "Segunda Quinta-feira após o Dia de Reis"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/e3LOYBU83CyoE/giphy.gif",
+        "title": "Um dos maiores cineastas do Brasil nasceu na Bahia. Quem é ele?",
+        "description": "Cinema também se vê na Bahia",
+        "answer": 3,
+        "alternatives": [
+           "José Padilha",
+           "Fernando Meireles",
+           "Walter Salles",
+           "Glauber Rocha"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/Wn0LNzuQwl5m6GrtYd/giphy.gif",
+        "title": "Qual desses artistas não nasceu na Bahia?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Margareth Menezes",
+           "Claudia Leite",
+           "Durval Lélis",
+           "Saulo Fernandes"
         ]
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "title": "Bônus 1: Não acertei nenhuma ainda...",
+        "description": "",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Fica bonito isso pra sua cara.",
+           "Claro, se não é baiano.",
+           "Vá chorar no pé do caboclo.",
+           "Deixe quieto, bora comer água"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Bônus 2: Onde o termo DESGRAÇA está aplicado corretamente?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Olha aí a desgraça que você fez.",
+           "Isso fica longe pra desgraça.",
+           "Vou lhe rumar a desgraça.",
+           "Tudo aí em cima, né, desgraça?"
         ]
       }
     ],

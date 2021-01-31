@@ -1,0 +1,43 @@
+{
+    "bg": "https://images.squarespace-cdn.com/content/v1/5728dc7cd51cd4809e7aaa01/1465415915694-Q9HIKWX82CWYV7S4O4K6/ke17ZwdGBToddI8pDm48kJWpy9GcrIQLqw86YhsEPs17gQa3H78H3Y0txjaiv_0fb6Yam34WDY9bcZnnIU8PyzL5XwEKbTsZ74nkctAu9ie-GZfo8K2YHLR1HEUj1H1_ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO8YZcVdkSpcW2HS8tNthO8R8SUltrq3rCXYlye7Tnoagg/Elevador-Lacerda.jpg?format=1500w",
+    "title": "Quiz CSS da Alura",
+    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Como fazer um background gradiente com css?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+           "background: linear-gradient(#e66465, #9198e5);",
+           "background: gradient(#e66465, #9198e5);"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#8c4f11",
+        "secondary": "#29b6f6",
+        "mainBg": "#171B35",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }

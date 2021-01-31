@@ -5,7 +5,7 @@
     "questions": [
       {
         "image": "https://fw.atarde.uol.com.br/2016/06/650x375_mulheres-usam-as-redes-sociais-para-protestar-contra-a-flica_1647436.jpg",
-        "title": "Em qual cidade é realizada a FLICA, uma das maiores Feiras literárias do Brasil",
+        "title": "Em qual cidade é realizada a FLICA, uma das maiores Feiras literárias do Brasil?",
         "description": "Bahia não se resume a Salvador não, pai.",
         "answer": 2,
         "alternatives": [
@@ -17,7 +17,7 @@
       },
       {
         "image": "https://media.giphy.com/media/LLYpIEemKzYjWd7ZPV/giphy.gif",
-        "title": "Quais desses nomes foram essenciais para o nascimento do Carnaval como conhecemos",
+        "title": "Quais desses nomes foram essenciais para o nascimento do Carnaval como conhecemos?",
         "description": "Se tem Bahia, tem Carnaval",
         "answer": 1,
         "alternatives": [
@@ -29,7 +29,7 @@
       },
       {
         "image": "https://media.giphy.com/media/LoUnyzF7dUsgkIwVow/giphy.gif",
-        "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica o maior centro cerâmico da América Latina",
+        "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica o maior centro cerâmico da América Latina?",
         "description": "",
         "answer": 0,
         "alternatives": [
@@ -41,7 +41,7 @@
       },
       {
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Salvador_Bahia_Brasil.jpg",
-        "title": "Qual o nome do maior Rio que corta Salvador",
+        "title": "Qual o nome do maior Rio que corta Salvador?",
         "description": "Aquele mesmo que corta São Caetano, Iguatemi e vai dar no Jardim dos Namorados",
         "answer": 2,
         "alternatives": [
@@ -53,7 +53,7 @@
       },
       {
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Senhordobonfim.jpg",
-        "title": "Quando se comemora a tradicional Festa do Senhor do Bonfim",
+        "title": "Quando se comemora a tradicional Festa do Senhor do Bonfim?",
         "description": "",
         "answer": 3,
         "alternatives": [

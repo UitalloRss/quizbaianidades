@@ -109,7 +109,7 @@ function QuestionWidget({
                 data-status={questaoPreenchida && respostaDeAlternativa}
               >
                 <input
-                  // style={{ display: 'none' }}
+                  style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
                   onChange={() =>{

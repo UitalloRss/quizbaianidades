@@ -1,31 +1,29 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import AlternativasDoForm from '../src/components/AlternativasdoForm';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import AlternativasDoForm from '../../src/components/AlternativasdoForm';
 
 function ResultWidget({resultado}) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado
+        <h3>Tela de Resultado</h3>
       </Widget.Header>
 
       <Widget.Content>
-      <p>Você acertou {resultado.reduce((somaAtual, resultadoAtual) =>{
+      <h3>Você acertou {resultado.reduce((somaAtual, resultadoAtual) =>{
         const acerto = resultadoAtual === true;
         {acerto ? somaAtual++ : somaAtual  };
         return somaAtual;
-      }, 0)} questões, parabéns!</p>
-      <ul>
-        {resultado.map((result, index) => (
-          <li>Questão {index+1}: {result === true ? 'Acertou': 'Errou'}</li>
-        ))}
-      </ul>
+      }, 0)} questões!</h3>
+      </Widget.Content>
+      <Widget.Content>
+        <Widget.Topic href="/">Voltar para Home</Widget.Topic>
       </Widget.Content>
     </Widget>
   );
@@ -35,11 +33,18 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        Carregando...
+        <h3>Carregando...</h3>
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+      <img
+        style={{
+          width: '100%',
+          height: '150px',
+          objectFit: 'cover',
+        }}
+        src={db.loading}
+      />
       </Widget.Content>
     </Widget>
   );
@@ -128,8 +133,7 @@ function QuestionWidget({
           <Button type="submit" disabled={!temAlternativaSelecionada}>
             Confirmar
           </Button>
-          {questaoPreenchida && respostaCorreta && <p>Você acertou!!</p>}
-          {questaoPreenchida && !respostaCorreta && <p>Você errou!!</p>}
+
         </AlternativasDoForm>
       </Widget.Content>
     </Widget>

@@ -27,7 +27,8 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "httpd://aluraquiz-marvel.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {

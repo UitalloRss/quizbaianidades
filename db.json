@@ -1,5 +1,6 @@
 {
     "bg": "https://images.squarespace-cdn.com/content/v1/5728dc7cd51cd4809e7aaa01/1465415915694-Q9HIKWX82CWYV7S4O4K6/ke17ZwdGBToddI8pDm48kJWpy9GcrIQLqw86YhsEPs17gQa3H78H3Y0txjaiv_0fb6Yam34WDY9bcZnnIU8PyzL5XwEKbTsZ74nkctAu9ie-GZfo8K2YHLR1HEUj1H1_ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO8YZcVdkSpcW2HS8tNthO8R8SUltrq3rCXYlye7Tnoagg/Elevador-Lacerda.jpg?format=1500w",
+    "loading": "https://media.giphy.com/media/S5DcQ1r1QZ2WJkzYTs/giphy.gif",
     "title": "Quiz de Baianidades",
     "description": "Vamos ver se você é da boa terra mesmo, ou é só de fachada.",
     "questions": [
@@ -29,7 +30,7 @@
       },
       {
         "image": "https://media.giphy.com/media/LoUnyzF7dUsgkIwVow/giphy.gif",
-        "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica o maior centro cerâmico da América Latina?",
+        "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica um dos maiores centros de artesanato em cerâmica do Brasil?",
         "description": "",
         "answer": 0,
         "alternatives": [
@@ -113,7 +114,8 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-marvel.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {

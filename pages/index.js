@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-bind */
 import React from 'react';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 
 import db from '../db.json';
 
@@ -19,7 +20,15 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <Widget>
+        <Widget 
+        as={motion.section}
+        transition={{duration: 0.5}}
+        variants={{
+          show: {opacity: 1}, hidden: {opacity: 0}
+        }}
+        initial="hidden"
+        animate="show"
+        >
           <Widget.Header>
             <h1>Quiz de Baianidades</h1>
           </Widget.Header>
@@ -27,7 +36,6 @@ export default function Home() {
             <form onSubmit={(event) => {
               event.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo um teste');
             }}
             >
               <Input
@@ -44,14 +52,41 @@ export default function Home() {
             </form>
           </Widget.Content>
         </Widget>
-        <Widget>
+        <Widget
+        as={motion.section}
+        transition={{delay: 0.5, duration: 0.5}}
+        variants={{
+          show: {opacity: 1}, hidden: {opacity: 0}
+        }}
+        initial="hidden"
+        animate="show"        
+        >
           <Widget.Content>
             <h1>Outros quizes</h1>
+            <ul>
+              {db.external.map((linkExterno) =>{
+                const [nomeDoProjeto, usuarioGitHub] = linkExterno.replace(/\//g, '').replace('https:', '').replace('.vercel.app', '').split('.');
 
-            <p>Lorem ipsum</p>
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic href={linkExterno}>
+                      {`${usuarioGitHub}/${nomeDoProjeto}`}
+                      </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer 
+        as={motion.section}
+        transition={{delay: 1, duration: 0.5}}
+        variants={{
+          show: {opacity: 1}, hidden: {opacity: 0}
+        }}
+        initial="hidden"
+        animate="show"        
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/uitallorss" />
     </QuizBackground>

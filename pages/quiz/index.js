@@ -23,7 +23,8 @@ function ResultWidget({resultado}) {
       }, 0)} questões!</h3>
       </Widget.Content>
       <Widget.Content>
-        <Widget.Topic href="/">Voltar para Home</Widget.Topic>
+      <a href="/"><Button
+      >Voltar para Home</Button></a>
       </Widget.Content>
     </Widget>
   );
@@ -37,14 +38,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-      <img
-        style={{
-          width: '100%',
-          height: '150px',
-          objectFit: 'cover',
-        }}
-        src={db.loading}
-      />
+      <img style={{width: '100%'}} src="https://media1.tenor.com/images/d8568500d345d6a810d8ab7cdc042bc1/tenor.gif?itemid=16362789"></img>
       </Widget.Content>
     </Widget>
   );
@@ -66,7 +60,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
-        {/* <BackLinkArrow href="/" /> */}
+        {/*<BackLinkArrow href="/" />*/}
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>

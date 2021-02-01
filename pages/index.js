@@ -43,11 +43,11 @@ export default function Home() {
                 onChange={(event) => {
                   setName(event.target.value);
                 }}
-                placeholder="Nome"
+                placeholder="Informe seu nome"
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar com ${name}`}
+                {`Jogar como ${name}`}
               </Button>
             </form>
           </Widget.Content>

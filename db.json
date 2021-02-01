@@ -83,9 +83,21 @@
         "answer": 1,
         "alternatives": [
            "Margareth Menezes",
-           "Claudia Leite",
+           "Claudia Leitte",
            "Durval Lélis",
            "Saulo Fernandes"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xTiTnBOdNon1YhcKT6/giphy.gif",
+        "title": "Em qual dessas frutas abaixo a Bahia tem total domínio da produção nacional?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Tomate",
+           "Morango",
+           "Cacau",
+           "Uva"
         ]
       },
       {

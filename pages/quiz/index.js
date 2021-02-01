@@ -92,7 +92,7 @@ function QuestionWidget({
               onSubmit();
               setQuestaoPreenchida(false);
               setAlternativaSelecionada(undefined);
-            }, 2 * 1000)
+            }, 3 * 1000)
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -162,7 +162,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 3 * 1000);
   // nasce === didMount
   }, []);
   function handleSubmitQuiz() {

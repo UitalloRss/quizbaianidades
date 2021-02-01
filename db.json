@@ -5,7 +5,7 @@
     "description": "Vamos ver se você é da boa terra mesmo, ou é só de fachada.",
     "questions": [
       {
-        "image": "https://fw.atarde.uol.com.br/2016/06/650x375_mulheres-usam-as-redes-sociais-para-protestar-contra-a-flica_1647436.jpg",
+        "image": "https://pbs.twimg.com/profile_images/1293630456731258880/gUEPxppw_400x400.jpg",
         "title": "Em qual cidade é realizada a FLICA, uma das maiores Feiras literárias do Brasil?",
         "description": "Bahia não se resume a Salvador não, pai.",
         "answer": 2,
@@ -17,7 +17,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/LLYpIEemKzYjWd7ZPV/giphy.gif",
+        "image": "https://static.tudointeressante.com.br/uploads/2017/02/coisas-pessoas-odeiam-carnaval-7.1.gif",
         "title": "Quais desses nomes foram essenciais para o nascimento do Carnaval como conhecemos?",
         "description": "Se tem Bahia, tem Carnaval",
         "answer": 1,
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/LoUnyzF7dUsgkIwVow/giphy.gif",
+        "image": "https://static.wixstatic.com/media/402eba_2a610e134f91431bb21d012684eccb4a~mv2.gif",
         "title": "Em qual distrito, localizado no Baixo Sul do Estado, fica um dos maiores centros de artesanato em cerâmica do Brasil?",
         "description": "",
         "answer": 0,
@@ -42,7 +42,7 @@
       },
       {
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Salvador_Bahia_Brasil.jpg",
-        "title": "Qual o nome do maior Rio que corta Salvador?",
+        "title": "Qual o nome do maior rio que corta Salvador?",
         "description": "Aquele mesmo que corta São Caetano, Iguatemi e vai dar no Jardim dos Namorados",
         "answer": 2,
         "alternatives": [
@@ -53,8 +53,8 @@
         ]
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Senhordobonfim.jpg",
-        "title": "Quando se comemora a tradicional Festa do Senhor do Bonfim?",
+        "image": "https://lh3.googleusercontent.com/proxy/nHdoFGA-jkJ_9MA7Ga7QQjSOOjRMuAsQhSiTbZLi9jBC5njMQ_rl6NmHOAIGXh7GvvmNWdv36BfqfzH7Azqcj5vtX5kaSkqu2DeAXpR1vQ",
+        "title": "Quando se comemora a tradicional Lavagem do Bonfim?",
         "description": "",
         "answer": 3,
         "alternatives": [
@@ -65,19 +65,19 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/e3LOYBU83CyoE/giphy.gif",
+        "image": "https://3.bp.blogspot.com/-OTz9PQfhu0U/Tt0LsymE1-I/AAAAAAAAC-0/yRMHnxAf6QY/s1600/wittn.jpg.opt679x965o0%252C0s679x965.jpg",
         "title": "Um dos maiores cineastas do Brasil nasceu na Bahia. Quem é ele?",
         "description": "Cinema também se vê na Bahia",
-        "answer": 3,
+        "answer": 2,
         "alternatives": [
            "José Padilha",
            "Fernando Meireles",
-           "Walter Salles",
-           "Glauber Rocha"
+           "Glauber Rocha",
+           "Walter Salles"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/Wn0LNzuQwl5m6GrtYd/giphy.gif",
+        "image": "https://www.queroabada.com.br//upload/o-carnaval-de-salvador_20159210185173849.jpg",
         "title": "Qual desses artistas não nasceu na Bahia?",
         "description": "",
         "answer": 1,
@@ -89,10 +89,10 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xTiTnBOdNon1YhcKT6/giphy.gif",
+        "image": "https://i.pinimg.com/originals/87/1d/f6/871df6e313fe3f63979d64b141bebc64.gif",
         "title": "Em qual dessas frutas abaixo a Bahia tem total domínio da produção nacional?",
         "description": "",
-        "answer": 1,
+        "answer": 2,
         "alternatives": [
            "Tomate",
            "Morango",
@@ -101,19 +101,19 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://p8.storage.canalblog.com/87/68/132655/122369310_o.gif",
         "title": "Bônus 1: Não acertei nenhuma ainda...",
         "description": "",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
            "Fica bonito isso pra sua cara.",
-           "Claro, se não é baiano.",
            "Vá chorar no pé do caboclo.",
+           "Claro, se não é baiano.",
            "Deixe quieto, bora comer água"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://media.tenor.com/images/f12b509a022d43bf0e12210d74f036e0/tenor.gif",
         "title": "Bônus 2: Onde o termo DESGRAÇA está aplicado corretamente?",
         "description": "",
         "answer": 3,
